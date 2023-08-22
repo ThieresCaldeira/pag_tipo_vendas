@@ -146,3 +146,26 @@ body{
     background-color: var(--cor-botao-efeito);
     color: var(--cor-fundo);
 }
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .image1 {
+        width: 50vw;
+    }
+    .caixa2 {
+        margin: 2em 2em;
+    }
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+    .image2 {
+        width: 50vw;
+    }
+    .lista {
+        display: block;
+    }
+}
