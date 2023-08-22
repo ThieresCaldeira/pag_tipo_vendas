@@ -1,0 +1,148 @@
+:root{
+    --cor-principal:#f6f6f6;
+    --cor-fundo:#000000;
+    --cor-secundaria:#C0C0C0;
+    --cor-botao:#167BF7;
+    --fonte-principal: 'Inter';
+    --cor-botao-efeito:#6eaaf3;
+    }
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal{
+    background-image: url("assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.texto1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.image1 {
+    margin: 1em 0 2em 0;
+}
+
+.botao1{
+    border: var(--cor-botao) solid 1px;
+    border-radius: 10px;
+    background-color: var(--cor-botao);
+    color: var(--cor-principal);
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao2 {
+    background-color: transparent;
+    border-color: var(--cor-botao);
+}
+
+.aviso{
+    font-size: 12px;
+    color: var(--cor-secundaria);
+    }
+
+.caixa {
+    margin: 0 6em;
+    }
+
+.image2 {
+    width: 80%;
+    }
+
+.secundario {
+    align-items: center;
+    margin: 0  10em;
+}
+
+.texto2 {
+    font-weight: 700;
+    font-size: 48;
+    color: var(--cor-principal);
+    margin-bottom: 0.1em;
+}
+
+.texto3 {
+
+    color: var(--cor-secundaria);
+}
+
+.botao3 {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.caixa2 {
+    padding: 2em;
+}
+.container__dispositivos {
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.image4 {
+    font-size: 32px;
+}
+
+.rodape {
+    text-align: center;
+    
+}
+
+.rodape__lista {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 2em 2em;
+   
+    
+}
+.lista__link {
+    text-decoration: none;
+    color: var(--cor-secundaria);   
+    font-size: 0.9em; 
+}
+
+.rodape__texto {
+    margin: 2em 2em;
+    font-size: 0.8em;
+}
+.rodape__lista a:hover {
+    color: var(--cor-botao);
+}
+.lista__link a :active {
+    color: rgb(95, 36, 56);
+}
+.botao1:hover {
+    background-color: var(--cor-botao-efeito);
+    color: var(--cor-fundo);
+}
